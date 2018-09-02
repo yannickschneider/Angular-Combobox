@@ -9,7 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Properties
   Inputs:
 
-  - data: Array<string> = List of itmes which are displayed when focusing the input.
+  - data: string-Array = List of items which are displayed when focusing the input.
   - disabled: boolean = Disable the input field.
   - placeholder: string = Placeholder displayed in the input field.
   - maxlength: string = max. characters allowed in the input field.
