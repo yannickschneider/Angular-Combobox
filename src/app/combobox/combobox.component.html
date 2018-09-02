@@ -1,0 +1,6 @@
+<div class="combo-box">
+    <input [(ngModel)]="inputValue" (focus)="showList=true" [disabled]="disabled" [placeholder]="placeholder" [maxlength]="maxlength" #input />
+  <ul *ngIf="showList" class="drop-down-list">
+    <li *ngFor="let val of data" (click)="select(val)">{{val}}</li>
+  </ul>
+</div>
